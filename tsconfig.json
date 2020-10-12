@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "outDir": "lib",
+        "jsx": "react",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "noEmitOnError": false,
+        "noUnusedLocals": false,
+        "strictNullChecks": false,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "newLine": "lf",
+        "lib": [
+            "ES2019"
+        ]
+    },
+    "include": [
+        "./src"
+    ]
+}
